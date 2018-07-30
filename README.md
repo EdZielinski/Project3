@@ -1,5 +1,4 @@
 # Project 3 - Pinocchio's Pizza & Subs  
-###### Web Programming with Python and JavaScript
 
 Web Programming with Python and JavaScript
 
@@ -9,11 +8,11 @@ Web Programming with Python and JavaScript
 
 * The orders folder is the name of the lone app within the pinocchios project
 
-*There are several files inside of the orders app folder
+* There are several files inside of the orders app folder
 
 **views.py**
 
-- The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are as follow:
+* The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are as follow:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- index: The index function is attached to the index.html page.  It's main job is to open the main page to the user.
 
