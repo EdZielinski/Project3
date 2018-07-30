@@ -11,6 +11,7 @@ Web Programming with Python and JavaScript
 *There are several files inside of the orders app folder
 
 **views.py**
+
 - The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are as follow:
 
 * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index - The index function is attached to the index.html page.
