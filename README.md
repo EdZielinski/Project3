@@ -6,7 +6,7 @@ Web Programming with Python and JavaScript
 * username - joe
 * password - joe_pizza
 
-The project name pinocchios has one app with the name of 'orders'
+The project name pinocchios has one app with the name of 'orders,' and inside the orders folder there are several python files.  Below is a summary of the significant Python files within the orders app folder.
 
 **orders**
 
