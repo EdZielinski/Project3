@@ -8,7 +8,7 @@ Web Programming with Python and JavaScript
 
 The project name pinocchios has one app with the name of 'orders'
 
-**orders.py**
+**orders**
 
 **views.py**
 The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are as follow:
