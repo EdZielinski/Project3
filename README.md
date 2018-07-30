@@ -6,7 +6,7 @@ Web Programming with Python and JavaScript
 * username - joe
 * password - joe_pizza
 
-* The orders folder is the name of the lone app within the pinocchios project
+- The orders folder is the name of the lone app within the pinocchios project
 
 * There are several files inside of the orders app folder
 
