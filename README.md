@@ -90,7 +90,7 @@ Web Programming with Python and JavaScript
 
 **admin.py**
 
-- The admin.py 
+- The admin.py file registers our classes defined in the models.py file.  The registration is necessary for us to administer these classes from the Administrative screen.  Each class must be registered in order for the superuser to manipulate the classes.
 
 **apps.py**
 
