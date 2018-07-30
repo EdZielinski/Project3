@@ -8,10 +8,8 @@ Web Programming with Python and JavaScript
 
 The project name pinocchios has one app with the name of 'orders,' and inside the orders folder there are several python files.  Below is a summary of the significant Python files within the orders app folder.
 
-**orders**
-
-**views.py**
-The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are as follow:
+**The views.py file**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are as follow:
 * index
 * menu
 * login_user
