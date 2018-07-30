@@ -1,4 +1,4 @@
-# Project 3 - Pinocchio's
+# Project 3 - Pinocchio's Pizza & Subs
 
 Web Programming with Python and JavaScript
 
