@@ -20,7 +20,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The above commands gave us the pinocchios folder and the orders folder
 
-**pinocchios python files descriptions**
+**pinocchios python files**
 
 * Setting.py
 
