@@ -1,6 +1,8 @@
-# Project 3 - Pinocchio's Pizza & Subs  
+# Pinocchio's Pizza & Subs  
 
 Web Programming with Python and JavaScript
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project is a web site pizza, subs and miscellaneous food ordering site, using Python (3.7), Bootstrap (version 4), Cascading Style Sheets (CSS3) and Django 2.0.7
 
 # Django admin
 * username - joe
