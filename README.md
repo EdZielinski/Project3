@@ -4,6 +4,11 @@ Web Programming with Python and JavaScript
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project is a pizza, subs and miscellaneous food ordering website, using Python (3.7), Bootstrap (version 4), Cascading Style Sheets (CSS3) and Django 2.0.7.
 
+**Django admin**
+
+* username - joe
+* password - joe_pizza
+
 # Functionality, Key components and Design
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Django’s web framework is the driving design behind this web site.  Django is a heavy weight web framework that offers many out-of-the box features.  A description of the process of setting up the web site’s framework, functionality, key components and design follows.
