@@ -25,7 +25,7 @@
 * Setting.py  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-There is a setting DEBUG=True that should be turned to false when delivered to production  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Add the app orders to the installed apps with the setting 'orders.apps.OrdersConfig'  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The allowed hosts setting is set to ALLOWED_HOSTS = ['*']. This is set to the Domain name once a domain name is given.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The allowed hosts setting is set to ALLOWED_HOSTS = ['*']. Later this is set to the Domain name
 
 
 
