@@ -69,7 +69,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- For the Register_user function, If they are submitting the form then the user will be registered.  User and password will be taken and try to create a new user, if a user already exists then it will be invalid, then it will give an error.  Then if it passes, the Cart is created for the User.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is the logout_user. The system will be notified that this user is logged out and the login page will open.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Profile_user contains the user details, when a user is logged uses the request  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is order, so this is the page where you order things now, the sam as menu here ….so you create your menu using the three tables, then you get the cart and you clear the cart, but if something already exists then you are adding it to the order and the user may add more items.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is order, this is the page where you order things. The menu is created and stored as a dictionary. The menu is created using the three tables, then you get the cart and you clear the cart, but if something already exists then you are adding it to the order and the user may then add more items.  
+
 
 
 **Requirements met**  
