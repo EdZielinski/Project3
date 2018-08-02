@@ -70,9 +70,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is the logout_user. The system will be notified that this user is logged out and the login page will open.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Profile_user contains the user details, when a user is logged uses the request  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is order, this is the page where you order things. The menu is created and stored as a dictionary. The menu is created using the three tables, then you get the cart and you clear the cart, but if something already exists then you are adding it to the order and the user may then add more items. The sub options are stored differently and displayed differently then than the Regular Pizza and the Sicilian Pizza. The temp_vars are sent to the order_food.html page. The order page relies heavily on the order.js file in the static folder.  
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In cart, we just get the Cart if there are items in it, then we return it.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In orders, If there are no orders the return no items found, otherwise get the orders.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In show_order, first check to see if user is a superuser and display order if true, otherwise display the users order. If the order is not found then redirect them to orders.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In checkout we get the Cart and for each item in the Cart mark it as ordered.  Once a food item is ordered, then order status is true and we order the food_line item.  Once ordered set the Cart to zero.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- add_to_cart  and delete_from_cart are similar. Check if cart exists and either add or delete.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- In order_complete the user must be a superuser to mark as complete.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- For all_orders the user must be a superuser to view all orders in descending order  
 
 
 **Requirements met**  
