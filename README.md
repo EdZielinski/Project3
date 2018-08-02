@@ -31,7 +31,7 @@
 
 **urls.py**
 
-- The urls.py The path function associates the route with the function.  It also gives an id name to the location of the website page.  This is beneficial should you need to move the page around.  This id name can be used in the HTML layout files, or HTML pages and be used throughout the program.  The id names are defined below:
+- The urls.py The path function associates the route with the function and route.  It also gives an alias name to the location of the website page.  This is beneficial should you need to move the page around.  This alias name can be used in the HTML layout files, or HTML pages and be used throughout the program.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- index: id name is "index" defined in the 'urls.py.' 
 
