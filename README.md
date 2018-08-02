@@ -7,6 +7,9 @@
 * username - joe
 * password - joe_pizza
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The creation of the superuser account with the following command  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>$python manage.py createsuperuser  
+
 # Functionality, Key components and Design
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Django’s web framework is the driving design behind this web site.  Django is a heavy weight web framework that offers many out-of-the box features.  A description of the process of setting up the web site’s framework, functionality, key components and design follows.
