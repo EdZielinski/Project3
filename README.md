@@ -61,7 +61,11 @@
 
 * views.py
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are as follow:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are summarized below:
+
+* First is index, which displays the index page, which basically delivers some text and videos  
+* Next view is menu which uses the food, option, and sizes tables to build the menu and create a dictionary to store the menu. So we loop over food, sizes and options to create the dictionary.  Once we have a dictionary with the menu, then we give it to the template menu.html.  So when you loop over the keys of the menu dictionary you get the menu. Next you create the menu with the food item.  These items were entered into the database first.  Then you add the options and then the sizes.  You create a table for each type. If they just open the login page the request type would be get. It will not be post. Post is when they submit the form. So when they are just opening the login page this part will run and open the login.  If the form is submitted, then the if part will run and the user will be logged in. Same is true for the register page.
+* 
 
 **Requirements met**  
 
