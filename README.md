@@ -56,6 +56,30 @@
 
 **Requirements met**  
 
+**Menu**
+* Model create with built-in Users and Authentication system  
+* SQLite used
+
+**Adding Items**
+* Created superuser to allow Admin to add, update, and remove items on the menu  
+* All items from the menu are in the website
+
+**Registration, Login, Logout**
+* Customers can Register, Login and Logout  
+* Ordering only complete by a registered user  
+
+**Shopping Cart**
+* Users can add items to a Shopping Cart, including toppings, or extras  
+* Contents of shopping cart are saved, even if a user closes the window, logs out and then back in again
+
+**Placing an Order**
+* Once there is an item in the shopping cart, the user can place an order, confirm the order, before placing the order
+
+**Special Pizza**
+* Special Pizza means 5 different toppings
+
+**Personal Touch**
+* Site administrators are allowed to mark orders as complete and allow users to see the status of pending or completed orders
 
 
 **Sources**
