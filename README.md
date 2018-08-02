@@ -68,7 +68,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is login_user which takes username and password from your form and we use the authenticate function so you can mark your users as active or inactive in Django, so if someone leaves the website you mark them as inactive. We check to see if the user is active and authenticated so then you login, otherwise you send them back to the login.  IF they are not active.  If the form is submitted the type would be post, so you do this, otherwise just the login page is open and the type would be get, so you just open the login.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- For the Register_user function, If they are submitting the form then the user will be registered.  User and password will be taken and try to create a new user, if a user already exists then it will be invalid, then it will give an error.  Then if it passes, the cart is created for the User.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is the logout_user. The system will be notified that this user is logged out and the login page will open.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is order  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Profile_user contains the user details, when a user is logged uses the request  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Next is order, so this is the page where you order things now, the sam as menu here ….so you create your menu using the three tables, then you get the cart and you clear the cart, but if something already exists then you are adding it to the order and the user may add more items.    
 
 
 **Requirements met**  
