@@ -2,6 +2,15 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project is a pizza, subs and miscellaneous food ordering website, using Django 2.0.7, Python (3.7), Bootstrap (version 4), Django's templating system and Cascading Style Sheets (CSS3).
 
+**Ordering Instructions**
+
+* User navigates to the Order Menu
+* User clicks on the Order+ button under the Action header
+* User then chooses Small or Large
+* Choose toppings
+* Click on Cart
+* Checkout
+
 **Django admin**
 
 * username - joe
