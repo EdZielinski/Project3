@@ -34,23 +34,23 @@
 
 **orders python files**
 
-*urls.py
+* urls.py
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The urls.py The path function associates the route with the function and route.  It also gives an alias name to the location of the website page.  This is beneficial should you need to move the page around.  This alias name can be used in the HTML layout files, or HTML pages and be used throughout the program.
 
-*models.py
+* models.py
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The models.py This file is where data definitions are defined and registered.  We define classes here and inherit the template Models.Mode to take advantage of Django's ORM so no SQL is written.  This allows for abstraction of SQLite, MySQL, Postgres, NoSQL, or any other version of SQL on the market.  Djangos ORM handles this for any language.  The classes are defined as follows:
 
-*admin.py
+* admin.py
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- The admin.py file registers our classes defined in the models.py file.  The registration is necessary for us to administer these classes from the Administrative screen.  Each class must be registered in order for the superuser to manipulate the classes.  Django's Object Relational Model (ORM) does all the work necessary to present it to an Administrative Interface for the superuser.  
 
-*views.py
+* views.py
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The views.py file is where we house the functions that the user sees through our HTML pages associated with each function.  The functions in the pinocchio project are as follow:
 
-*Requirements met
+**Requirements met**  
 
 
 
